@@ -1,0 +1,100 @@
+/*FORMS GENERAL SETTINGS*/
+
+/*DIV THAT CONTAINS THE TWO FORMS AND SHOW DIV*/
+.divForms {
+  background-color: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  display: block;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+}
+
+/*CREATE CONTACT FORM*/
+form {
+  background-color: rgba(218, 218, 218);
+  position: fixed;
+  display: block;
+  width: 480px;
+  height: 570px;
+  margin: 5% auto;
+  left: 0;
+  right: 0;
+  border: 2px rgba(0, 0, 0, 0.301) solid;
+  border-radius: 3px;
+}
+
+/*X SETTINGS*/
+form span {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 2.5rem;
+  color: rgb(14, 153, 153);
+  font-weight: 900;
+}
+
+/*INPUT SETTINGS IN FORMS*/
+form input,
+textarea {
+  float: right;
+  border: 2px rgba(0, 0, 0, 0.301) solid;
+  border-radius: 3px;
+}
+
+form input {
+  height: 35px;
+  width: 220px;
+  padding: 5px;
+  font-size: 1.3rem;
+}
+
+form textarea {
+  min-width: 220px;
+  max-width: 220px;
+  min-height: 90px;
+  max-height: 90px;
+  font-size: 1.3rem;
+  padding: 5px;
+}
+
+form p {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 25px;
+  font-size: 1.7rem;
+}
+/*////////////////*/
+
+/*SUBMIT BUTTONS SETTINGS*/
+button {
+  margin-top: 30px;
+  margin-left: 15%;
+  margin-right: 15%;
+  width: 70%;
+  color: rgb(14, 153, 153);
+  background-color: rgb(218, 218, 218);
+  border: 2px rgba(0, 0, 0, 0.301) solid;
+  border-radius: 3px;
+  font-size: 1.8rem;
+}
+
+/*TITLE OF FORMS SETTINGS*/
+h2 {
+  color: rgb(14, 153, 153);
+  margin-top: 60px;
+  margin-bottom: 35px;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Anton", sans-serif;
+  font-weight: 100;
+}

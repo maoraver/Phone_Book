@@ -1,0 +1,9 @@
+/*FOOTER GENERAL SETTINGS*/
+footer {
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  flex-shrink: 0;
+  margin-top: 10px;
+}

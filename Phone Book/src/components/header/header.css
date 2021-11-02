@@ -1,0 +1,15 @@
+/*HEADER SETTINGS*/
+header {
+  margin-top: 2%;
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+h1 {
+  font-size: 4.1rem;
+  color: lightblue;
+  font-family: "Anton", sans-serif;
+  font-weight: bold;
+  margin-top: 15px;
+}
+ /*////////////////*/

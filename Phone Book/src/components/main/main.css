@@ -1,0 +1,107 @@
+main {
+  flex: 1 0 auto;
+}
+
+/*CONTAINER FOR PHONEBOOK*/
+.container {
+  margin: auto;
+  border: 1px rgba(0, 0, 0, 0.301) solid;
+  border-radius: 3px;
+  width: 50%;
+  min-height: 400px;
+  min-width: 400px;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 3px;
+  font-family: "Oxygen", sans-serif;
+  background-color: white;
+}
+/*////////////////*/
+
+/*UPPER MENU IN PHONEBOOK*/
+.upper {
+  width: 90%;
+  min-height: 70px;
+  margin: 20px auto;
+  font-size: 18px;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.upperLogos > img {
+  width: 30px;
+  float: right;
+  cursor: pointer;
+}
+
+#deleteAll,
+#createContact {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.search {
+  height: 35px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px rgba(0, 0, 0, 0.301) solid;
+  border-radius: 3px;
+}
+/*////////////////*/
+
+/*COUNT CONTACT ARR LENGTH*/
+.contactsLength {
+  font-size: 1.5rem;
+  color: black;
+  float: left;
+}
+/*////////////////*/
+
+/*MIDDLE PHONEBOOK SETTINGS*/
+.middle {
+  width: 90%;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul:last-child {
+  border-bottom: 1px rgba(0, 0, 0, 0.301) solid;
+  margin-bottom: 25px;
+}
+
+li {
+  border-top: 1px rgba(0, 0, 0, 0.301) solid;
+  font-size: 1.5rem;
+  height: 100px;
+  line-height: 100px;
+}
+
+.infoImg,
+.deleteImg,
+.editImg {
+  margin-right: auto;
+  margin-top: 35px;
+  margin-left: 15px;
+  float: right;
+  vertical-align: middle;
+  height: 30px;
+  cursor: pointer;
+}
+
+.profileImg {
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+  border-radius: 30px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+/*////////////////*/
